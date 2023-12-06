@@ -1,72 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-// Console.WriteLine("Hello, World!");
-
-
-/*Datatyper, int, double, string, char, bool, decimal, float, long, short, byte, uint, ulong, ushort, sbyte
-int = heltal  
-Float = decimaltal
-string = text
-bool = sandt eller falskt
-*/
-
-/*
-int x;
-x = 5;
-
-int y = 10, z = 15;
-
-Console.WriteLine("x is "+x);
-Console.WriteLine("y is "+y);
-Console.WriteLine("z is "+z);
-
-float d = 12.5f;
-
-Console.WriteLine(d + x - z / y);
-
-int a = Convert.ToInt16;
-
-Console.WriteLine("Float to intet "+ a);
-
-
-string str = "I am a string" + "and I am a string too";
-
-Console.WriteLine(str);
-
-
-bool erDetTirsdag = false;
-bool erDetOnsdag = true;
-
-Console.WriteLine("Er det tirsdag? " + erDetTirsdag);
-*/
-////_______________________________
-/*Logics
-if statement -->
-
-
-int x = 5;
-
-if (x == 4){
-    Console.WriteLine("x is five");   
-} else if (x == 1) {
-    Console.WriteLine("x is one");
-} else if (x == 2) {
-    Console.WriteLine("x is two");
- } else {
-    Console.WriteLine("x is not one, two or four");
-}
-
-
-string? input = Console.ReadLine();
-Console.WriteLine("This is the input: " + input);
-
-
-Console.WriteLine("What do you want to multiply 2 with?");
-int number = int.Parse(Console.ReadLine());
-Console.WriteLine("2 * " + number + " = " + (2 * number));
-*/
-
-////_______________________________
-// 104 Exercises (1-8)
+﻿// 104 Exercises (1-8)
 
 // 1
 // Console.WriteLine("Hello: " + "John Schmidt");
@@ -148,7 +80,32 @@ int number1, number2;
         Console.WriteLine(number1 + "*" + number2 + "=" + (number1 * number2));
         Console.WriteLine(number1 + "/" + number2 + "=" + (number1 / number2));
         Console.WriteLine(number1 + "%" + number2 + "=" + (number1 % number2));
-*/
+
 
 // 8
 
+int number1 = 5;
+
+Console.WriteLine(number1 + "*" + "0" + "=" + (number1 * 0));
+Console.WriteLine(number1 + "*" + "1" + "=" + (number1 * 1));
+Console.WriteLine(number1 + "*" + "2" + "=" + (number1 * 2));
+Console.WriteLine(number1 + "*" + "3" + "=" + (number1 * 3));
+Console.WriteLine(number1 + "*" + "4" + "=" + (number1 * 4));
+Console.WriteLine(number1 + "*" + "5" + "=" + (number1 * 5));
+Console.WriteLine(number1 + "*" + "6" + "=" + (number1 * 6));
+Console.WriteLine(number1 + "*" + "7" + "=" + (number1 * 7));
+Console.WriteLine(number1 + "*" + "8" + "=" + (number1 * 8));
+Console.WriteLine(number1 + "*" + "9" + "=" + (number1 * 9));
+Console.WriteLine(number1 + "*" + "10" + "=" + (number1 * 10));
+*/
+
+// 9
+
+int number1, number2, number3, number4;
+
+number1 = 10;
+number2 = 15;
+number3 = 20;
+number4 = 30;
+
+Console.WriteLine((number1 + number2 + number3 + number4)/4);
